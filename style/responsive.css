@@ -1,0 +1,18 @@
+@media screen and (max-width: 700px) {
+  .highlight .btn-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .highlight .btn-container button {
+    width: 300px;
+  }
+  .highlight .btn-container button + button {
+    margin-top: 1rem;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .highlight .text-container {
+    width: 50%;
+  }
+}
